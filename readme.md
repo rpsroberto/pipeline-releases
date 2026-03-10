@@ -1,5 +1,14 @@
 # 🚀 Pipeline de Releases com GitHub Actions
 
+![GitHub repo size](https://img.shields.io/github/repo-size/rpsroberto/pipeline-releases)
+![GitHub last commit](https://img.shields.io/github/last-commit/rpsroberto/pipeline-releases)
+![GitHub](https://img.shields.io/github/license/rpsroberto/pipeline-releases)
+![HTML](https://img.shields.io/badge/HTML-5-orange)
+
+Projeto demonstrando pipeline de deploy automático com GitHub Actions e GitHub Pages.
+
+# 🚀 Pipeline de Releases com GitHub Actions
+
 Este projeto demonstra a criação de um **pipeline de releases utilizando GitHub Actions**, com publicação automática de uma página estática utilizando **GitHub Pages**.
 
 A cada nova versão criada através de **tags**, o pipeline executa automaticamente e realiza o **deploy da aplicação**.
@@ -17,6 +26,10 @@ O objetivo deste projeto é demonstrar na prática:
 * Publicação de página estática com **GitHub Pages**
 
 ---
+
+## 📸 Preview do Projeto
+
+![Preview do projeto](preview.png)
 
 ## ⚙️ Tecnologias utilizadas
 
