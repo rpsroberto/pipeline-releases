@@ -29,7 +29,7 @@ O objetivo deste projeto é demonstrar na prática:
 
 ## 📸 Preview do Projeto
 
-![Preview do projeto](preview.png)
+![Preview do projeto](preview.png.png)
 
 ## ⚙️ Tecnologias utilizadas
 
