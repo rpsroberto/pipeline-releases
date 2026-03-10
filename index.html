@@ -1,14 +1,100 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Pipeline GitHub Actions</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+    color:white;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container{
+    text-align:center;
+    background: rgba(255,255,255,0.05);
+    padding:50px;
+    border-radius:15px;
+    backdrop-filter: blur(10px);
+    box-shadow:0 10px 30px rgba(0,0,0,0.4);
+}
+
+h1{
+    font-size:40px;
+    margin-bottom:10px;
+}
+
+p{
+    font-size:18px;
+    opacity:0.8;
+}
+
+.tag{
+    margin-top:20px;
+    padding:10px 20px;
+    border-radius:25px;
+    display:inline-block;
+    background:#00d4ff;
+    color:black;
+    font-weight:bold;
+}
+
+footer{
+    margin-top:30px;
+    font-size:14px;
+    opacity:0.6;
+}
+
+button{
+    margin-top:25px;
+    padding:12px 25px;
+    border:none;
+    border-radius:25px;
+    background:#00d4ff;
+    font-size:16px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    transform:scale(1.05);
+}
+
+</style>
 </head>
 
 <body>
 
-<h1>Minha primeira release com GitHub Actions 🚀</h1>
+<div class="container">
+
+<h1>🚀 Pipeline GitHub Actions</h1>
+
+<p>Deploy automático utilizando GitHub Pages e GitHub Actions.</p>
+
+<div class="tag">
+Versão v0.0.1
+</div>
+
+<br>
+
+<button onclick="alert('Pipeline funcionando com sucesso!')">
+Testar Pipeline
+</button>
+
+<footer>
+<p>Projeto acadêmico • Sistemas de Informação</p>
+</footer>
+
+</div>
 
 </body>
 </html>
-
-
